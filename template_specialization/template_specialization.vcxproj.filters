@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="template.cpp">
+    <ClCompile Include="template_specialization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="max.cpp">
+    <ClCompile Include="myClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Accum.h">
+    <ClInclude Include="myClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

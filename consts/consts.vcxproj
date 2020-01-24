@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{117CCE39-CE48-4483-9617-772E490B14D0}</ProjectGuid>
+    <ProjectGuid>{69FB3001-9E80-45DA-816B-E3E84BBCA578}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ccpfundementalsincludingcpp</RootNamespace>
+    <RootNamespace>consts</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>templates</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -148,11 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="max.cpp" />
-    <ClCompile Include="template.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Accum.h" />
+    <ClCompile Include="consts.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
